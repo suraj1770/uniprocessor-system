@@ -63,11 +63,6 @@ printf("\n P%d\t%4d\t%3d\t%2d\t%d",p[i].pid,p[i].btime,p[i].ttime,p[i].wtime,p[i
 printf("\n");
 for(i=0;i<38;i++)
 printf("-");
-printf("\n\nGANTT Chart\n");
-printf("-");
-for(i=0; i<(p[n-1].ttime + 2*n);i++)
-printf("-");
-printf("\n");
 printf("|");
 for(i=0;i<n;i++)
 {
